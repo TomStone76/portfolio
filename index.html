@@ -8,19 +8,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
     <style>
 
         body {
-            background-image: url("assets/images/mooning.png");
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment: fixed;
-            height: 100%;
-            width: 100%;
-            background-position: center;
-            margin: 0;
-            position: relative;
+            background-color: #F8F8F8;
         }
 
         p {
@@ -39,40 +34,18 @@
         }
 
         #info-card {
-            -moz-box-shadow: inset 0 0 10px #000000;
-            -webkit-box-shadow: inset 0 0 10px #000000;
-            box-shadow: inset 0 0 10px #000000;
-            animation: fadein 5s;
             width: 960px;
             margin: auto;
-        }
-
-        @keyframes fadein {
-            from {
-                opacity: 0;
-            }
-
-            to {
-                opacity: 1;
-            }
-        }
-
-        #top-bar {
-            -moz-box-shadow: inset 0 0 10px #000000;
-            -webkit-box-shadow: inset 0 0 10px #000000;
-            box-shadow: inset 0 0 10px #000000;
+            border-style: solid;
+            border-color: black;
+            border-width: 1px;
             border-radius: 0px;
-            border-width: 0px;
-            animation: fadein 5s;
         }
 
         #bottom-bar {
-            -moz-box-shadow: inset 0 0 10px #000000;
-            -webkit-box-shadow: inset 0 0 10px #000000;
-            box-shadow: inset 0 0 10px #000000;
-            border-radius: 0px;
-            border-width: 0px;
-            animation: fadein 5s;
+            border-top-style: solid;
+            border-top-color: black;
+            border-top-width: 1px;
         }
 
         @media only screen and (max-width: 980px) {
@@ -115,6 +88,12 @@
             font-family: 'Nunito Sans', sans-serif;
         }
 
+        #top-bar {
+            border-bottom-style: solid;
+            border-bottom-color: black;
+            border-bottom-width: 1px;
+        }
+
     </style>
     <title>About</title>
 </head>
@@ -122,23 +101,23 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white" id="top-bar">
         <div class="container" id="top-container">
-            <a class="navbar-brand" id="name" href="#" style="font-family: 'Nunito Sans', sans-serif; font-size: xx-large; background-color: white; padding: 15px; color: black; text-transform: uppercase;">Thomas
+            <a class="navbar-brand" id="name" href="#" style="font-family: 'Nunito Sans', sans-serif; font-size: xx-large; background-color: white; padding: 15px; color: black; text-transform: uppercase; text-shadow: 2px 2px  #F8F8F8">Thomas
                 Joseph Stone</a>
             <div class="dropdown" style="font-family: 'Nunito Sans', sans-serif; text-transform: uppercase;">
                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
+                    aria-haspopup="true" aria-expanded="false" style="text-transform: uppercase;">
                     Site Contents
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">About</a>
-                    <a class="dropdown-item" href="#">Portfolio</a>
-                    <a class="dropdown-item" href="#">Contacts</a>
+                    <a class="dropdown-item" href="index.html">About</a>
+                    <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+                    <a class="dropdown-item" href="contact.html">Contact</a>
                 </div>
             </div>
     </nav>
     <br><br>
     <div class="container" style="padding-bottom: 100px;">
-        <div class="card col-xs-12" id="info-card" style="border-radius: 0px; border-width: 0px;">
+        <div class="card col-xs-12" id="info-card">
             <div class="
             card-body">
                 <h1 class="border-bottom" style="font-family: 'Nunito Sans', sans-serif; text-transform: uppercase;">About
@@ -163,7 +142,7 @@
     <div class="fixed-bottom">
         <nav class="navbar navbar-light bg-white text-center" id="bottom-bar">
             <div class="container" style="justify-content: center;">
-                <a class="navbar-brand" href="#" style="font-size: small; padding-top: 25px; font-family: font-family: 'Nunito Sans', sans-serif;">&copy;
+                <a class="navbar-brand" href="#" style="font-size: small; padding-top: 25px; font-family: 'Nunito Sans', sans-serif;">&copy;
                     2018 Thomas Joseph Stone</a>
             </div>
         </nav>
