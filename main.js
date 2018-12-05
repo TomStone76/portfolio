@@ -1,1 +1,0 @@
-//This .js file will contain functionality to deal with click events and form submission.
