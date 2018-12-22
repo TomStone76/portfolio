@@ -45,11 +45,20 @@
     }
 
     #bottom-bar {
-            border-top-style: solid;
-            border-top-color: black;
-            border-top-width: 1px;
+        border-top-style: solid;
+        border-top-color: black;
+        border-top-width: 1px;
     }
-    
+
+    #name {
+        animation: fadein 5s;
+    }
+
+    @keyframes fadein {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+
 </style>
 
 <body>
