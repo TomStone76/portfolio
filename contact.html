@@ -120,7 +120,7 @@
     <br><br>
 
     <div class="container">
-        <form id="contact-form" method="POST" action="//formspree.io/ts13124@gmail.com" style="background-color: white; padding: 20px;">
+        <form id="contact-form" method="POST" style="background-color: white; padding: 20px;">
             <h1 class="border-bottom" style="font-family: 'Nunito Sans', sans-serif; text-transform: uppercase;">Contact
                 Form</h1>
             <div class="form-group">
@@ -141,8 +141,15 @@
             <div class="subject">
                 <input type="hidden" name="_subject" value="Website contact"/>
             </div>
+            <div>
+                <input type="text" name="_gotcha" style="display:none"/>
+            </div>
             <br>
         </form>
+        <script>
+            var contact = document.getElementById('contactform');
+            contactform.setAttribute('action', '//formspree.io/' + 'ts' + '13124' + '@' + 'gmail' + '.' + 'com');
+        </script>
     </div>
     <div class="fixed-bottom">
         <nav class="navbar navbar-light bg-white text-center" id="bottom-bar">
