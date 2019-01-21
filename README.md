@@ -1,3 +1,3 @@
 # Newest-Portfolio
 
-This is the most recent version of my professional portfolio site. This readme will be updated as further modifications are made.
+This is the most recent version of my professional portfolio site. It features a bio page, a projects page, a contact form (not a final version), and a page with some relevant links.
