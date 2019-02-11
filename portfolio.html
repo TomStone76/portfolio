@@ -165,6 +165,10 @@
             border: 1px solid;
         }
 
+        p {
+            overflow-wrap: break-word;
+        }
+
     </style>
     <title>Portfolio</title>
 </head>
@@ -191,78 +195,90 @@
     <br>
     <br>
     <div class="container" style="padding-bottom: 115px;">
-        <div class="card" id="portfolio-card"">
-            <div class=" card-body">
-            <h1 class="border-bottom" style="font-family: 'Nunito Sans', sans-serif; width: 875px;">Portfolio</h1>
+        <div class="row">
+            <div class="card" id="portfolio-card">
+                <div class=" card-body">
+                    <h1 class="border-bottom" style="font-family: 'Nunito Sans', sans-serif; width: 875px;">Portfolio</h1>
 
-            <h2 class="title">Train Scheduler</h2>
-            <p>This is an app that facilitates the process of scheduling trains: it functions as a tool for planning
-                vacations, commutes, and various types of travel. It allows users to input information about trains:
-                their names, destinations, first arrival times, and frequencies. The app uses this information to tell
-                the user when the next train will arrive, and how many minutes away it is.
-                The technologies used in this application include JavaScript, JQuery, HTML, CSS, Bootstrap, and
-                Firebase.</p>
+                    <h2 class="title">Train Scheduler</h2>
+                    <p>This is an app that facilitates the process of scheduling trains: it functions as a tool for
+                        planning
+                        vacations, commutes, and various types of travel. It allows users to input information about
+                        trains:
+                        their names, destinations, first arrival times, and frequencies. The app uses this information
+                        to tell
+                        the user when the next train will arrive, and how many minutes away it is.
+                        The technologies used in this application include JavaScript, JQuery, HTML, CSS, Bootstrap, and
+                        Firebase.</p>
 
-            <div class="image-link">
-                <a href="https://tomstone76.github.io/TrainScheduler">
-                    <img id="project5" src="assets/images/train.png" alt="Train Scheduler">
-                    <h2 class="name">•Deployed Page</h2>
-                </a>
-                <a href="https://github.com/TomStone76/TrainScheduler">
-                    <h2 class="name">•Code Repository</h2>
-                </a>
+                    <div class="image-link">
+                        <a href="https://tomstone76.github.io/TrainScheduler">
+                            <img id="project5" src="assets/images/train.png" alt="Train Scheduler">
+                            <h2 class="name">•Deployed Page</h2>
+                        </a>
+                        <a href="https://github.com/TomStone76/TrainScheduler">
+                            <h2 class="name">•Code Repository</h2>
+                        </a>
+                    </div>
+
+                    <br><br>
+
+                    <h2 class="title">Geography Trivia Game</h2>
+                    <p>This is an app for users looking to test their geography knowledge. After the user starts the
+                        game, she
+                        or he answers several true or false questions. The user has 30 seconds to complete the quiz.
+                        After this
+                        time expires, the user sees a game over screen that lists how many right answers, wrong
+                        answers, and
+                        unanswered questions she or he had.
+                        The technologies used in this application include JavaScript, JQuery, HTML, CSS, and Bootstrap.</p>
+
+                    <div class="image-link">
+                        <a href="https://tomstone76.github.io/TriviaGame">
+                            <img id="project3" src="assets/images/trivia.png" alt="Geography Trivia Game">
+                            <h2 class="name">•Deployed Page</h2>
+                        </a>
+                        <a href="https://github.com/TomStone76/TriviaGame">
+                            <h2 class="name">•Code Repository</h2>
+                        </a>
+                    </div>
+
+                    <br><br>
+
+                    <h2 class="title">Node.js-MySQL-Storefront</h2>
+                    <p>This CLI application models an electronic storefront. It allows the user to purchase a specific
+                        quantity
+                        of products
+                        from a few different store categories. If there is a sufficient quantity of the requested
+                        product, the
+                        program allows
+                        the mock order to go through and updates the database accordingly. If not, it lets the user
+                        know that
+                        there are
+                        not enough units in stock.
+                        The technologies used in this app include JavaScript, Node.js, the Inquirer NPM package, SQL
+                        and MySQL.
+                    </p>
+
+                    <div class="image-link">
+                        <a href="https://github.com/TomStone76/Node.js-MySQL-Storefront">
+                            <img id="project5" src="assets/images/bamazon.png" alt="Storefront">
+                            <h2 class="name">•Code Repository</h2>
+                        </a>
+                    </div>
+
+                </div>
             </div>
 
-            <br><br>
-
-            <h2 class="title">Geography Trivia Game</h2>
-            <p>This is an app for users looking to test their geography knowledge. After the user starts the game, she
-                or he answers several true or false questions. The user has 30 seconds to complete the quiz. After this
-                time expires, the user sees a game over screen that lists how many right answers, wrong answers, and
-                unanswered questions she or he had.
-                The technologies used in this application include JavaScript, JQuery, HTML, CSS, and Bootstrap.</p>
-
-            <div class="image-link">
-                <a href="https://tomstone76.github.io/TriviaGame">
-                    <img id="project3" src="assets/images/trivia.png" alt="Geography Trivia Game">
-                    <h2 class="name">•Deployed Page</h2>
-                </a>
-                <a href="https://github.com/TomStone76/TriviaGame">
-                    <h2 class="name">•Code Repository</h2>
-                </a>
+            <div class="fixed-bottom">
+                <nav class="navbar navbar-light bg-white text-center" id="bottom-bar">
+                    <div class="container" style="justify-content: center;">
+                        <a class="navbar-brand" href="#" style="font-size: small; padding-top: 25px; font-family: 'Nunito Sans', sans-serif;">&copy;
+                            2019 Thomas Joseph
+                            Stone</a>
+                    </div>
+                </nav>
             </div>
-
-            <br><br>
-
-            <h2 class="title">Node.js-MySQL-Storefront</h2>
-            <p>This CLI application models an electronic storefront. It allows the user to purchase a specific quantity
-                of products
-                from a few different store categories. If there is a sufficient quantity of the requested product, the
-                program allows
-                the mock order to go through and updates the database accordingly. If not, it lets the user know that
-                there are
-                not enough units in stock.
-                The technologies used in this app include JavaScript, Node.js, the Inquirer NPM package, SQL and MySQL.
-            </p>
-
-            <div class="image-link">
-                <a href="https://github.com/TomStone76/Node.js-MySQL-Storefront">
-                    <img id="project5" src="assets/images/bamazon.png" alt="Storefront">
-                    <h2 class="name">•Code Repository</h2>
-                </a>
-            </div>
-
-        </div>
-    </div>
-    <div class="fixed-bottom">
-        <nav class="navbar navbar-light bg-white text-center" id="bottom-bar">
-            <div class="container" style="justify-content: center;">
-                <a class="navbar-brand" href="#" style="font-size: small; padding-top: 25px; font-family: 'Nunito Sans', sans-serif;">&copy;
-                    2019 Thomas Joseph
-                    Stone</a>
-            </div>
-        </nav>
-    </div>
 </body>
 
 </html>
